@@ -7,8 +7,7 @@ gem 'homeflow_api'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2', :group => :production
-gem 'sqlite3'
+gem 'pg'
 
 
 # Gems used only for assets and not required
