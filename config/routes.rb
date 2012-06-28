@@ -1,4 +1,6 @@
 Sonarflow::Application.routes.draw do
+  resources :searches
+
   get "welcome/index"
 
   # The priority is based upon order of creation:

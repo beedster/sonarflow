@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Location:</b>
+  <%= @search.location %>
+</p>
+
+<ul>
+	<% @result.elements.each do |element| %>
+		<li><%= element.short_description %></li>
+	<% end %>
+</ul>
+
+<%= link_to 'Edit', edit_search_path(@search) %> |
+<%= link_to 'Back', searches_path %>
