@@ -1,8 +1,8 @@
-source 'https://rubygems.org'
+source 'https://rubygems.org', 'c:\Sites\sonarflow'
 
 gem 'rails', '3.2.1'
 
-gem 'homeflow_api'
+gem 'homeflow_api', :git => 'git://github.com/homeflow/homeflow_api'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
